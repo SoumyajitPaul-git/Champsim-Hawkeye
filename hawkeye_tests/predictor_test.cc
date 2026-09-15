@@ -19,22 +19,6 @@ int main() {
     // TEST_VECTOR_END
 
 
-    // SELF TEST Start
-
-    // train_events = {{0x400,true},{0x400,true},{0x400,true},{0x400,true},{0x400,true}};
-    // query_pcs = {0x400};
-    // train_events = {{0x800,false},{0x800,false},{0x800,false},{0x800,false},{0x800,false}};
-    // query_pcs = {0x800};
-    // train_events = {};
-    // query_pcs = {0xC00};
-    // train_events = {{0x1000,false}};
-    // query_pcs = {0x1000};
-    train_events = {{0x111,true},{0x222,false},{0x111,true},{0x222,false},{0x111,true}};
-    query_pcs = {0x111, 0x222, 0x333};
-
-    // SELF TEST End
-
-
 
     for (auto& [pc, opt_hit] : train_events) {
         pred.train(pc, opt_hit);
