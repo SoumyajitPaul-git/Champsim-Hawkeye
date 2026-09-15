@@ -30,3 +30,22 @@ compile_commands.json
 
 .vscode/
 **/.DS_Store
+
+
+# Local ChampSim build
+.csconfig/
+bin/
+
+# Build artifacts
+*.o
+*.d
+
+# Simulation output
+*.txt
+*.log
+
+# Experiment plots/results
+*.png
+
+# Windows downloaded-file metadata
+*:Zone.Identifier

@@ -1,0 +1,3342 @@
+{
+  "res_p1_lru_a4.txt": {
+    "file_name": "res_p1_lru_a4.txt",
+    "execution": {
+      "ipc": 0.8568,
+      "instructions": 50000003,
+      "cycles": 58353644
+    },
+    "branch_prediction": {
+      "accuracy_pct": 99.54,
+      "mpki": 0.2056,
+      "avg_rob_occupancy": 180.1
+    },
+    "caches": {
+      "LLC": {
+        "total": {
+          "access": 265856, 
+          "hit": 175765,
+          "miss": 90091,
+          "miss_merge": 0,
+          "hit_rate_pct": 66.1129
+        },
+        "load": {
+          "access": 7336,
+          "hit": 4360,
+          "miss": 2976,
+          "miss_merge": 0,
+          "hit_rate_pct": 59.4329
+        },
+        "rfo": {
+          "access": 128645,
+          "hit": 48362,
+          "miss": 80283,
+          "miss_merge": 0,
+          "hit_rate_pct": 37.5934
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 129784,
+          "hit": 123035,
+          "miss": 6749,
+          "miss_merge": 0,
+          "hit_rate_pct": 94.7998
+        },
+        "translation": {
+          "access": 91,
+          "hit": 8,
+          "miss": 83,
+          "miss_merge": 0,
+          "hit_rate_pct": 8.7912
+        },
+        "avg_miss_latency_cycles": 166.5
+      },
+      "cpu0_DTLB": {
+        "total": {
+          "access": 26679479,
+          "hit": 26671026,
+          "miss": 8453,
+          "miss_merge": 4748,
+          "hit_rate_pct": 99.9683
+        },
+        "load": {
+          "access": 26679479,
+          "hit": 26671026,
+          "miss": 8453,
+          "miss_merge": 4748,
+          "hit_rate_pct": 99.9683
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "translation": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "avg_miss_latency_cycles": 29.53
+      },
+      "cpu0_ITLB": {
+        "total": {
+          "access": 13905119,
+          "hit": 13905057,
+          "miss": 62,
+          "miss_merge": 29,
+          "hit_rate_pct": 99.9996
+        },
+        "load": {
+          "access": 13905119,
+          "hit": 13905057,
+          "miss": 62,
+          "miss_merge": 29,
+          "hit_rate_pct": 99.9996
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "translation": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "avg_miss_latency_cycles": 299.0
+      },
+      "cpu0_L1D": {
+        "total": {
+          "access": 26680399,
+          "hit": 25730260,
+          "miss": 950139,
+          "miss_merge": 775392,
+          "hit_rate_pct": 96.4388
+        },
+        "load": {
+          "access": 19657541,
+          "hit": 19611722,
+          "miss": 45819,
+          "miss_merge": 4572,
+          "hit_rate_pct": 99.7669
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 7022056,
+          "hit": 6117833,
+          "miss": 904223,
+          "miss_merge": 770819,
+          "hit_rate_pct": 87.1231
+        },
+        "translation": {
+          "access": 802,
+          "hit": 705,
+          "miss": 97,
+          "miss_merge": 1,
+          "hit_rate_pct": 87.9052
+        },
+        "avg_miss_latency_cycles": 102.8
+      },
+      "cpu0_L1I": {
+        "total": {
+          "access": 13991563,
+          "hit": 13991206,
+          "miss": 357,
+          "miss_merge": 38,
+          "hit_rate_pct": 99.9974
+        },
+        "load": {
+          "access": 13991563,
+          "hit": 13991206,
+          "miss": 357,
+          "miss_merge": 38,
+          "hit_rate_pct": 99.9974
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "translation": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "avg_miss_latency_cycles": 217.0
+      },
+      "cpu0_L2C": {
+        "total": {
+          "access": 308974,
+          "hit": 172897,
+          "miss": 136077,
+          "miss_merge": 0,
+          "hit_rate_pct": 55.9584
+        },
+        "load": {
+          "access": 41566,
+          "hit": 34230,
+          "miss": 7336,
+          "miss_merge": 0,
+          "hit_rate_pct": 82.351
+        },
+        "rfo": {
+          "access": 133404,
+          "hit": 4759,
+          "miss": 128645,
+          "miss_merge": 0,
+          "hit_rate_pct": 3.5674
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 133908,
+          "hit": 133903,
+          "miss": 5,
+          "miss_merge": 0,
+          "hit_rate_pct": 99.9963
+        },
+        "translation": {
+          "access": 96,
+          "hit": 5,
+          "miss": 91,
+          "miss_merge": 0,
+          "hit_rate_pct": 5.2083
+        },
+        "avg_miss_latency_cycles": 122.5
+      },
+      "cpu0_STLB": {
+        "total": {
+          "access": 3738,
+          "hit": 3338,
+          "miss": 400,
+          "miss_merge": 0,
+          "hit_rate_pct": 89.2991
+        },
+        "load": {
+          "access": 3738,
+          "hit": 3338,
+          "miss": 400,
+          "miss_merge": 0,
+          "hit_rate_pct": 89.2991
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "translation": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "avg_miss_latency_cycles": 259.8
+      }
+    },
+    "dram": {
+      "rq_row_buffer_hit": 26,
+      "rq_row_buffer_miss": 83316
+    }
+  },
+  "res_p1_lru_a8.txt": {
+    "file_name": "res_p1_lru_a8.txt",
+    "execution": {
+      "ipc": 0.8571,
+      "instructions": 50000003,
+      "cycles": 58333427
+    },
+    "branch_prediction": {
+      "accuracy_pct": 99.54,
+      "mpki": 0.2056,
+      "avg_rob_occupancy": 180.1
+    },
+    "caches": {
+      "LLC": {
+        "total": {
+          "access": 265798,
+          "hit": 194219,
+          "miss": 71579,
+          "miss_merge": 0,
+          "hit_rate_pct": 73.0702
+        },
+        "load": {
+          "access": 7332,
+          "hit": 4515,
+          "miss": 2817,
+          "miss_merge": 0,
+          "hit_rate_pct": 61.5794
+        },
+        "rfo": {
+          "access": 128619,
+          "hit": 59942,
+          "miss": 68677,
+          "miss_merge": 0,
+          "hit_rate_pct": 46.6043
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 129756,
+          "hit": 129754,
+          "miss": 2,
+          "miss_merge": 0,
+          "hit_rate_pct": 99.9985
+        },
+        "translation": {
+          "access": 91,
+          "hit": 8,
+          "miss": 83,
+          "miss_merge": 0,
+          "hit_rate_pct": 8.7912
+        },
+        "avg_miss_latency_cycles": 182.3
+      },
+      "cpu0_DTLB": {
+        "total": {
+          "access": 26679461,
+          "hit": 26671059,
+          "miss": 8402,
+          "miss_merge": 4697,
+          "hit_rate_pct": 99.9685
+        },
+        "load": {
+          "access": 26679461,
+          "hit": 26671059,
+          "miss": 8402,
+          "miss_merge": 4697,
+          "hit_rate_pct": 99.9685
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "translation": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "avg_miss_latency_cycles": 29.41
+      },
+      "cpu0_ITLB": {
+        "total": {
+          "access": 13906094,
+          "hit": 13906032,
+          "miss": 62,
+          "miss_merge": 29,
+          "hit_rate_pct": 99.9996
+        },
+        "load": {
+          "access": 13906094,
+          "hit": 13906032,
+          "miss": 62,
+          "miss_merge": 29,
+          "hit_rate_pct": 99.9996
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "translation": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "avg_miss_latency_cycles": 302.0
+      },
+      "cpu0_L1D": {
+        "total": {
+          "access": 26680381,
+          "hit": 25803361,
+          "miss": 877020,
+          "miss_merge": 702269,
+          "hit_rate_pct": 96.7129
+        },
+        "load": {
+          "access": 19657523,
+          "hit": 19611772,
+          "miss": 45751,
+          "miss_merge": 4500,
+          "hit_rate_pct": 99.7673
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 7022056,
+          "hit": 6190884,
+          "miss": 831172,
+          "miss_merge": 697768,
+          "hit_rate_pct": 88.1634
+        },
+        "translation": {
+          "access": 802,
+          "hit": 705,
+          "miss": 97,
+          "miss_merge": 1,
+          "hit_rate_pct": 87.9052
+        },
+        "avg_miss_latency_cycles": 91.82
+      },
+      "cpu0_L1I": {
+        "total": {
+          "access": 13992483,
+          "hit": 13992126,
+          "miss": 357,
+          "miss_merge": 38,
+          "hit_rate_pct": 99.9974
+        },
+        "load": {
+          "access": 13992483,
+          "hit": 13992126,
+          "miss": 357,
+          "miss_merge": 38,
+          "hit_rate_pct": 99.9974
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "translation": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "avg_miss_latency_cycles": 214.3
+      },
+      "cpu0_L2C": {
+        "total": {
+          "access": 308978,
+          "hit": 172932,
+          "miss": 136046,
+          "miss_merge": 0,
+          "hit_rate_pct": 55.969
+        },
+        "load": {
+          "access": 41570,
+          "hit": 34238,
+          "miss": 7332,
+          "miss_merge": 0,
+          "hit_rate_pct": 82.3623
+        },
+        "rfo": {
+          "access": 133404,
+          "hit": 4785,
+          "miss": 128619,
+          "miss_merge": 0,
+          "hit_rate_pct": 3.5868
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 133908,
+          "hit": 133904,
+          "miss": 4,
+          "miss_merge": 0,
+          "hit_rate_pct": 99.997
+        },
+        "translation": {
+          "access": 96,
+          "hit": 5,
+          "miss": 91,
+          "miss_merge": 0,
+          "hit_rate_pct": 5.2083
+        },
+        "avg_miss_latency_cycles": 108.4
+      },
+      "cpu0_STLB": {
+        "total": {
+          "access": 3738,
+          "hit": 3338,
+          "miss": 400,
+          "miss_merge": 0,
+          "hit_rate_pct": 89.2991
+        },
+        "load": {
+          "access": 3738,
+          "hit": 3338,
+          "miss": 400,
+          "miss_merge": 0,
+          "hit_rate_pct": 89.2991
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "translation": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "avg_miss_latency_cycles": 259.0
+      }
+    },
+    "dram": {
+      "rq_row_buffer_hit": 7,
+      "rq_row_buffer_miss": 71570
+    }
+  },
+  "res_p1_lru_a16.txt": {
+    "file_name": "res_p1_lru_a16.txt",
+    "execution": {
+      "ipc": 0.8577,
+      "instructions": 50000003,
+      "cycles": 58293334
+    },
+    "branch_prediction": {
+      "accuracy_pct": 99.54,
+      "mpki": 0.2056,
+      "avg_rob_occupancy": 180.1
+    },
+    "caches": {
+      "LLC": {
+        "total": {
+          "access": 265810,
+          "hit": 196847,
+          "miss": 68963,
+          "miss_merge": 0,
+          "hit_rate_pct": 74.0555
+        },
+        "load": {
+          "access": 7335,
+          "hit": 4740,
+          "miss": 2595,
+          "miss_merge": 0,
+          "hit_rate_pct": 64.6217
+        },
+        "rfo": {
+          "access": 128624,
+          "hit": 62337,
+          "miss": 66287,
+          "miss_merge": 0,
+          "hit_rate_pct": 48.4645
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 129760,
+          "hit": 129757,
+          "miss": 3,
+          "miss_merge": 0,
+          "hit_rate_pct": 99.9977
+        },
+        "translation": {
+          "access": 91,
+          "hit": 13,
+          "miss": 78,
+          "miss_merge": 0,
+          "hit_rate_pct": 14.2857
+        },
+        "avg_miss_latency_cycles": 183.3
+      },
+      "cpu0_DTLB": {
+        "total": {
+          "access": 26679532,
+          "hit": 26671106,
+          "miss": 8426,
+          "miss_merge": 4724,
+          "hit_rate_pct": 99.9684
+        },
+        "load": {
+          "access": 26679532,
+          "hit": 26671106,
+          "miss": 8426,
+          "miss_merge": 4724,
+          "hit_rate_pct": 99.9684
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "translation": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "avg_miss_latency_cycles": 29.32
+      },
+      "cpu0_ITLB": {
+        "total": {
+          "access": 13906706,
+          "hit": 13906644,
+          "miss": 62,
+          "miss_merge": 29,
+          "hit_rate_pct": 99.9996
+        },
+        "load": {
+          "access": 13906706,
+          "hit": 13906644,
+          "miss": 62,
+          "miss_merge": 29,
+          "hit_rate_pct": 99.9996
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "translation": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "avg_miss_latency_cycles": 305.2
+      },
+      "cpu0_L1D": {
+        "total": {
+          "access": 26680452,
+          "hit": 25816586,
+          "miss": 863866,
+          "miss_merge": 689115,
+          "hit_rate_pct": 96.7622
+        },
+        "load": {
+          "access": 19657594,
+          "hit": 19611854,
+          "miss": 45740,
+          "miss_merge": 4489,
+          "hit_rate_pct": 99.7673
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 7022056,
+          "hit": 6204026,
+          "miss": 818030,
+          "miss_merge": 684626,
+          "hit_rate_pct": 88.3506
+        },
+        "translation": {
+          "access": 802,
+          "hit": 706,
+          "miss": 96,
+          "miss_merge": 0,
+          "hit_rate_pct": 88.0299
+        },
+        "avg_miss_latency_cycles": 89.48
+      },
+      "cpu0_L1I": {
+        "total": {
+          "access": 13993099,
+          "hit": 13992743,
+          "miss": 356,
+          "miss_merge": 37,
+          "hit_rate_pct": 99.9975
+        },
+        "load": {
+          "access": 13993099,
+          "hit": 13992743,
+          "miss": 356,
+          "miss_merge": 37,
+          "hit_rate_pct": 99.9975
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "translation": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "avg_miss_latency_cycles": 214.5
+      },
+      "cpu0_L2C": {
+        "total": {
+          "access": 308978,
+          "hit": 172924,
+          "miss": 136054,
+          "miss_merge": 0,
+          "hit_rate_pct": 55.9664
+        },
+        "load": {
+          "access": 41570,
+          "hit": 34235,
+          "miss": 7335,
+          "miss_merge": 0,
+          "hit_rate_pct": 82.3551
+        },
+        "rfo": {
+          "access": 133404,
+          "hit": 4780,
+          "miss": 128624,
+          "miss_merge": 0,
+          "hit_rate_pct": 3.5831
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 133908,
+          "hit": 133904,
+          "miss": 4,
+          "miss_merge": 0,
+          "hit_rate_pct": 99.997
+        },
+        "translation": {
+          "access": 96,
+          "hit": 5,
+          "miss": 91,
+          "miss_merge": 0,
+          "hit_rate_pct": 5.2083
+        },
+        "avg_miss_latency_cycles": 105.4
+      },
+      "cpu0_STLB": {
+        "total": {
+          "access": 3735,
+          "hit": 3335,
+          "miss": 400,
+          "miss_merge": 0,
+          "hit_rate_pct": 89.2905
+        },
+        "load": {
+          "access": 3735,
+          "hit": 3335,
+          "miss": 400,
+          "miss_merge": 0,
+          "hit_rate_pct": 89.2905
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "translation": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "avg_miss_latency_cycles": 258.2
+      }
+    },
+    "dram": {
+      "rq_row_buffer_hit": 3,
+      "rq_row_buffer_miss": 68957
+    }
+  },
+  "res_p1_hawkeye_a4.txt": {
+    "file_name": "res_p1_hawkeye_a4.txt",
+    "execution": {
+      "ipc": 0.8554,
+      "instructions": 50000003,
+      "cycles": 58452582
+    },
+    "branch_prediction": {
+      "accuracy_pct": 99.54,
+      "mpki": 0.2056,
+      "avg_rob_occupancy": 180.1
+    },
+    "caches": {
+      "LLC": {
+        "total": {
+          "access": 265804,
+          "hit": 148598,
+          "miss": 117206,
+          "miss_merge": 0,
+          "hit_rate_pct": 55.9051
+        },
+        "load": {
+          "access": 7329,
+          "hit": 3696,
+          "miss": 3633,
+          "miss_merge": 0,
+          "hit_rate_pct": 50.4298
+        },
+        "rfo": {
+          "access": 128624,
+          "hit": 69046,
+          "miss": 59578,
+          "miss_merge": 0,
+          "hit_rate_pct": 53.6805
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 129760,
+          "hit": 75853,
+          "miss": 53907,
+          "miss_merge": 0,
+          "hit_rate_pct": 58.4564
+        },
+        "translation": {
+          "access": 91,
+          "hit": 3,
+          "miss": 88,
+          "miss_merge": 0,
+          "hit_rate_pct": 3.2967
+        },
+        "avg_miss_latency_cycles": 97.02
+      },
+      "cpu0_DTLB": {
+        "total": {
+          "access": 26679285,
+          "hit": 26670913,
+          "miss": 8372,
+          "miss_merge": 4662,
+          "hit_rate_pct": 99.9686
+        },
+        "load": {
+          "access": 26679285,
+          "hit": 26670913,
+          "miss": 8372,
+          "miss_merge": 4662,
+          "hit_rate_pct": 99.9686
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "translation": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "avg_miss_latency_cycles": 29.94
+      },
+      "cpu0_ITLB": {
+        "total": {
+          "access": 13907809,
+          "hit": 13907747,
+          "miss": 62,
+          "miss_merge": 29,
+          "hit_rate_pct": 99.9996
+        },
+        "load": {
+          "access": 13907809,
+          "hit": 13907747,
+          "miss": 62,
+          "miss_merge": 29,
+          "hit_rate_pct": 99.9996
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "translation": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "avg_miss_latency_cycles": 296.0
+      },
+      "cpu0_L1D": {
+        "total": {
+          "access": 26680205,
+          "hit": 25893375,
+          "miss": 786830,
+          "miss_merge": 612080,
+          "hit_rate_pct": 97.0509
+        },
+        "load": {
+          "access": 19657347,
+          "hit": 19611146,
+          "miss": 46201,
+          "miss_merge": 4951,
+          "hit_rate_pct": 99.765
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 7022056,
+          "hit": 6281523,
+          "miss": 740533,
+          "miss_merge": 607129,
+          "hit_rate_pct": 89.4542
+        },
+        "translation": {
+          "access": 802,
+          "hit": 706,
+          "miss": 96,
+          "miss_merge": 0,
+          "hit_rate_pct": 88.0299
+        },
+        "avg_miss_latency_cycles": 80.02
+      },
+      "cpu0_L1I": {
+        "total": {
+          "access": 13994218,
+          "hit": 13993861,
+          "miss": 357,
+          "miss_merge": 38,
+          "hit_rate_pct": 99.9974
+        },
+        "load": {
+          "access": 13994218,
+          "hit": 13993861,
+          "miss": 357,
+          "miss_merge": 38,
+          "hit_rate_pct": 99.9974
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "translation": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "avg_miss_latency_cycles": 212.5
+      },
+      "cpu0_L2C": {
+        "total": {
+          "access": 308975,
+          "hit": 172926,
+          "miss": 136049,
+          "miss_merge": 0,
+          "hit_rate_pct": 55.9676
+        },
+        "load": {
+          "access": 41569,
+          "hit": 34240,
+          "miss": 7329,
+          "miss_merge": 0,
+          "hit_rate_pct": 82.3691
+        },
+        "rfo": {
+          "access": 133404,
+          "hit": 4780,
+          "miss": 128624,
+          "miss_merge": 0,
+          "hit_rate_pct": 3.5831
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 133906,
+          "hit": 133901,
+          "miss": 5,
+          "miss_merge": 0,
+          "hit_rate_pct": 99.9963
+        },
+        "translation": {
+          "access": 96,
+          "hit": 5,
+          "miss": 91,
+          "miss_merge": 0,
+          "hit_rate_pct": 5.2083
+        },
+        "avg_miss_latency_cycles": 93.28
+      },
+      "cpu0_STLB": {
+        "total": {
+          "access": 3743,
+          "hit": 3343,
+          "miss": 400,
+          "miss_merge": 0,
+          "hit_rate_pct": 89.3134
+        },
+        "load": {
+          "access": 3743,
+          "hit": 3343,
+          "miss": 400,
+          "miss_merge": 0,
+          "hit_rate_pct": 89.3134
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "translation": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "avg_miss_latency_cycles": 263.7
+      }
+    },
+    "dram": {
+      "rq_row_buffer_hit": 21,
+      "rq_row_buffer_miss": 63278
+    }
+  },
+  "res_p1_hawkeye_a8.txt": {
+    "file_name": "res_p1_hawkeye_a8.txt",
+    "execution": {
+      "ipc": 0.8566,
+      "instructions": 50000003,
+      "cycles": 58372952
+    },
+    "branch_prediction": {
+      "accuracy_pct": 99.54,
+      "mpki": 0.2056,
+      "avg_rob_occupancy": 180.1
+    },
+    "caches": {
+      "LLC": {
+        "total": {
+          "access": 265852,
+          "hit": 182913,
+          "miss": 82939,
+          "miss_merge": 0,
+          "hit_rate_pct": 68.8026
+        },
+        "load": {
+          "access": 7339,
+          "hit": 4249,
+          "miss": 3090,
+          "miss_merge": 0,
+          "hit_rate_pct": 57.8962
+        },
+        "rfo": {
+          "access": 128642,
+          "hit": 90001,
+          "miss": 38641,
+          "miss_merge": 0,
+          "hit_rate_pct": 69.9624
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 129780,
+          "hit": 88654,
+          "miss": 41126,
+          "miss_merge": 0,
+          "hit_rate_pct": 68.311
+        },
+        "translation": {
+          "access": 91,
+          "hit": 9,
+          "miss": 82,
+          "miss_merge": 0,
+          "hit_rate_pct": 9.8901
+        },
+        "avg_miss_latency_cycles": 91.84
+      },
+      "cpu0_DTLB": {
+        "total": {
+          "access": 26679363,
+          "hit": 26670951,
+          "miss": 8412,
+          "miss_merge": 4705,
+          "hit_rate_pct": 99.9685
+        },
+        "load": {
+          "access": 26679363,
+          "hit": 26670951,
+          "miss": 8412,
+          "miss_merge": 4705,
+          "hit_rate_pct": 99.9685
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "translation": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "avg_miss_latency_cycles": 29.34
+      },
+      "cpu0_ITLB": {
+        "total": {
+          "access": 13909277,
+          "hit": 13909215,
+          "miss": 62,
+          "miss_merge": 29,
+          "hit_rate_pct": 99.9996
+        },
+        "load": {
+          "access": 13909277,
+          "hit": 13909215,
+          "miss": 62,
+          "miss_merge": 29,
+          "hit_rate_pct": 99.9996
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "translation": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "avg_miss_latency_cycles": 299.3
+      },
+      "cpu0_L1D": {
+        "total": {
+          "access": 26680283,
+          "hit": 26020473,
+          "miss": 659810,
+          "miss_merge": 485058,
+          "hit_rate_pct": 97.527
+        },
+        "load": {
+          "access": 19657425,
+          "hit": 19611406,
+          "miss": 46019,
+          "miss_merge": 4767,
+          "hit_rate_pct": 99.7659
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 7022056,
+          "hit": 6408361,
+          "miss": 613695,
+          "miss_merge": 480291,
+          "hit_rate_pct": 91.2605
+        },
+        "translation": {
+          "access": 802,
+          "hit": 706,
+          "miss": 96,
+          "miss_merge": 0,
+          "hit_rate_pct": 88.0299
+        },
+        "avg_miss_latency_cycles": 58.9
+      },
+      "cpu0_L1I": {
+        "total": {
+          "access": 13995546,
+          "hit": 13995189,
+          "miss": 357,
+          "miss_merge": 38,
+          "hit_rate_pct": 99.9974
+        },
+        "load": {
+          "access": 13995546,
+          "hit": 13995189,
+          "miss": 357,
+          "miss_merge": 38,
+          "hit_rate_pct": 99.9974
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "translation": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "avg_miss_latency_cycles": 223.9
+      },
+      "cpu0_L2C": {
+        "total": {
+          "access": 308981,
+          "hit": 172905,
+          "miss": 136076,
+          "miss_merge": 0,
+          "hit_rate_pct": 55.9598
+        },
+        "load": {
+          "access": 41571,
+          "hit": 34232,
+          "miss": 7339,
+          "miss_merge": 0,
+          "hit_rate_pct": 82.3459
+        },
+        "rfo": {
+          "access": 133404,
+          "hit": 4762,
+          "miss": 128642,
+          "miss_merge": 0,
+          "hit_rate_pct": 3.5696
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 133910,
+          "hit": 133906,
+          "miss": 4,
+          "miss_merge": 0,
+          "hit_rate_pct": 99.997
+        },
+        "translation": {
+          "access": 96,
+          "hit": 5,
+          "miss": 91,
+          "miss_merge": 0,
+          "hit_rate_pct": 5.2083
+        },
+        "avg_miss_latency_cycles": 66.17
+      },
+      "cpu0_STLB": {
+        "total": {
+          "access": 3740,
+          "hit": 3340,
+          "miss": 400,
+          "miss_merge": 0,
+          "hit_rate_pct": 89.3048
+        },
+        "load": {
+          "access": 3740,
+          "hit": 3340,
+          "miss": 400,
+          "miss_merge": 0,
+          "hit_rate_pct": 89.3048
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "translation": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "avg_miss_latency_cycles": 258.2
+      }
+    },
+    "dram": {
+      "rq_row_buffer_hit": 6,
+      "rq_row_buffer_miss": 41806
+    }
+  },
+  "res_p1_hawkeye_a16.txt": {
+    "file_name": "res_p1_hawkeye_a16.txt",
+    "execution": {
+      "ipc": 0.8574,
+      "instructions": 50000003,
+      "cycles": 58312707
+    },
+    "branch_prediction": {
+      "accuracy_pct": 99.54,
+      "mpki": 0.2056,
+      "avg_rob_occupancy": 180.1
+    },
+    "caches": {
+      "LLC": {
+        "total": {
+          "access": 265801,
+          "hit": 196864,
+          "miss": 68937,
+          "miss_merge": 0,
+          "hit_rate_pct": 74.0644
+        },
+        "load": {
+          "access": 7331,
+          "hit": 4681,
+          "miss": 2650,
+          "miss_merge": 0,
+          "hit_rate_pct": 63.8521
+        },
+        "rfo": {
+          "access": 128621,
+          "hit": 98008,
+          "miss": 30613,
+          "miss_merge": 0,
+          "hit_rate_pct": 76.1991
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 129758,
+          "hit": 94166,
+          "miss": 35592,
+          "miss_merge": 0,
+          "hit_rate_pct": 72.5705
+        },
+        "translation": {
+          "access": 91,
+          "hit": 9,
+          "miss": 82,
+          "miss_merge": 0,
+          "hit_rate_pct": 9.8901
+        },
+        "avg_miss_latency_cycles": 89.46
+      },
+      "cpu0_DTLB": {
+        "total": {
+          "access": 26679350,
+          "hit": 26670921,
+          "miss": 8429,
+          "miss_merge": 4724,
+          "hit_rate_pct": 99.9684
+        },
+        "load": {
+          "access": 26679350,
+          "hit": 26670921,
+          "miss": 8429,
+          "miss_merge": 4724,
+          "hit_rate_pct": 99.9684
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "translation": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "avg_miss_latency_cycles": 29.55
+      },
+      "cpu0_ITLB": {
+        "total": {
+          "access": 13911863,
+          "hit": 13911801,
+          "miss": 62,
+          "miss_merge": 29,
+          "hit_rate_pct": 99.9996
+        },
+        "load": {
+          "access": 13911863,
+          "hit": 13911801,
+          "miss": 62,
+          "miss_merge": 29,
+          "hit_rate_pct": 99.9996
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "translation": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "avg_miss_latency_cycles": 298.8
+      },
+      "cpu0_L1D": {
+        "total": {
+          "access": 26680270,
+          "hit": 26071265,
+          "miss": 609005,
+          "miss_merge": 434254,
+          "hit_rate_pct": 97.7174
+        },
+        "load": {
+          "access": 19657412,
+          "hit": 19611547,
+          "miss": 45865,
+          "miss_merge": 4614,
+          "hit_rate_pct": 99.7667
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 7022056,
+          "hit": 6459013,
+          "miss": 563043,
+          "miss_merge": 429639,
+          "hit_rate_pct": 91.9818
+        },
+        "translation": {
+          "access": 802,
+          "hit": 705,
+          "miss": 97,
+          "miss_merge": 1,
+          "hit_rate_pct": 87.9052
+        },
+        "avg_miss_latency_cycles": 50.79
+      },
+      "cpu0_L1I": {
+        "total": {
+          "access": 13997988,
+          "hit": 13997631,
+          "miss": 357,
+          "miss_merge": 38,
+          "hit_rate_pct": 99.9974
+        },
+        "load": {
+          "access": 13997988,
+          "hit": 13997631,
+          "miss": 357,
+          "miss_merge": 38,
+          "hit_rate_pct": 99.9974
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "translation": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "avg_miss_latency_cycles": 214.3
+      },
+      "cpu0_L2C": {
+        "total": {
+          "access": 308977,
+          "hit": 172929,
+          "miss": 136048,
+          "miss_merge": 0,
+          "hit_rate_pct": 55.9682
+        },
+        "load": {
+          "access": 41570,
+          "hit": 34239,
+          "miss": 7331,
+          "miss_merge": 0,
+          "hit_rate_pct": 82.3647
+        },
+        "rfo": {
+          "access": 133404,
+          "hit": 4783,
+          "miss": 128621,
+          "miss_merge": 0,
+          "hit_rate_pct": 3.5853
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 133907,
+          "hit": 133902,
+          "miss": 5,
+          "miss_merge": 0,
+          "hit_rate_pct": 99.9963
+        },
+        "translation": {
+          "access": 96,
+          "hit": 5,
+          "miss": 91,
+          "miss_merge": 0,
+          "hit_rate_pct": 5.2083
+        },
+        "avg_miss_latency_cycles": 55.74
+      },
+      "cpu0_STLB": {
+        "total": {
+          "access": 3738,
+          "hit": 3338,
+          "miss": 400,
+          "miss_merge": 0,
+          "hit_rate_pct": 89.2991
+        },
+        "load": {
+          "access": 3738,
+          "hit": 3338,
+          "miss": 400,
+          "miss_merge": 0,
+          "hit_rate_pct": 89.2991
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "translation": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "avg_miss_latency_cycles": 259.9
+      }
+    },
+    "dram": {
+      "rq_row_buffer_hit": 4,
+      "rq_row_buffer_miss": 33341
+    }
+  },
+  "res_p2_lru_mcf.txt": {
+    "file_name": "res_p2_lru_mcf.txt",
+    "execution": {
+      "ipc": 0.3697,
+      "instructions": 50000002,
+      "cycles": 135233720
+    },
+    "branch_prediction": {
+      "accuracy_pct": 98.75,
+      "mpki": 1.081,
+      "avg_rob_occupancy": 153.3
+    },
+    "caches": {
+      "LLC": {
+        "total": {
+          "access": 1943704,
+          "hit": 683822,
+          "miss": 1259882,
+          "miss_merge": 0,
+          "hit_rate_pct": 35.1814
+        },
+        "load": {
+          "access": 1210176,
+          "hit": 17046,
+          "miss": 1193130,
+          "miss_merge": 0,
+          "hit_rate_pct": 1.4086
+        },
+        "rfo": {
+          "access": 9,
+          "hit": 1,
+          "miss": 8,
+          "miss_merge": 0,
+          "hit_rate_pct": 11.1111
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 660801,
+          "hit": 660460,
+          "miss": 341,
+          "miss_merge": 0,
+          "hit_rate_pct": 99.9484
+        },
+        "translation": {
+          "access": 72718,
+          "hit": 6315,
+          "miss": 66403,
+          "miss_merge": 0,
+          "hit_rate_pct": 8.6842
+        },
+        "avg_miss_latency_cycles": 210.0
+      },
+      "cpu0_DTLB": {
+        "total": {
+          "access": 24686884,
+          "hit": 23743148,
+          "miss": 943736,
+          "miss_merge": 713109,
+          "hit_rate_pct": 96.1772
+        },
+        "load": {
+          "access": 24686884,
+          "hit": 23743148,
+          "miss": 943736,
+          "miss_merge": 713109,
+          "hit_rate_pct": 96.1772
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "translation": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "avg_miss_latency_cycles": 166.8
+      },
+      "cpu0_ITLB": {
+        "total": {
+          "access": 7500423,
+          "hit": 7500423,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 100.0
+        },
+        "load": {
+          "access": 7500423,
+          "hit": 7500423,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 100.0
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "translation": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "avg_miss_latency_cycles": null
+      },
+      "cpu0_L1D": {
+        "total": {
+          "access": 25016795,
+          "hit": 22117054,
+          "miss": 2899741,
+          "miss_merge": 1593896,
+          "hit_rate_pct": 88.4088
+        },
+        "load": {
+          "access": 12183088,
+          "hit": 9364440,
+          "miss": 2818648,
+          "miss_merge": 1591516,
+          "hit_rate_pct": 76.8643
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 12504391,
+          "hit": 12502558,
+          "miss": 1833,
+          "miss_merge": 914,
+          "hit_rate_pct": 99.9853
+        },
+        "translation": {
+          "access": 329316,
+          "hit": 250056,
+          "miss": 79260,
+          "miss_merge": 1466,
+          "hit_rate_pct": 75.9319
+        },
+        "avg_miss_latency_cycles": 223.4
+      },
+      "cpu0_L1I": {
+        "total": {
+          "access": 7500423,
+          "hit": 7500423,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 100.0
+        },
+        "load": {
+          "access": 7500423,
+          "hit": 7500423,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 100.0
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "translation": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "avg_miss_latency_cycles": null
+      },
+      "cpu0_L2C": {
+        "total": {
+          "access": 1980622,
+          "hit": 696563,
+          "miss": 1284059,
+          "miss_merge": 0,
+          "hit_rate_pct": 35.1689
+        },
+        "load": {
+          "access": 1227132,
+          "hit": 16956,
+          "miss": 1210176,
+          "miss_merge": 0,
+          "hit_rate_pct": 1.3818
+        },
+        "rfo": {
+          "access": 919,
+          "hit": 910,
+          "miss": 9,
+          "miss_merge": 0,
+          "hit_rate_pct": 99.0207
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 674777,
+          "hit": 673621,
+          "miss": 1156,
+          "miss_merge": 0,
+          "hit_rate_pct": 99.8287
+        },
+        "translation": {
+          "access": 77794,
+          "hit": 5076,
+          "miss": 72718,
+          "miss_merge": 0,
+          "hit_rate_pct": 6.5249
+        },
+        "avg_miss_latency_cycles": 219.0
+      },
+      "cpu0_STLB": {
+        "total": {
+          "access": 230627,
+          "hit": 71827,
+          "miss": 158800,
+          "miss_merge": 0,
+          "hit_rate_pct": 31.1442
+        },
+        "load": {
+          "access": 230627,
+          "hit": 71827,
+          "miss": 158800,
+          "miss_merge": 0,
+          "hit_rate_pct": 31.1442
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "translation": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "avg_miss_latency_cycles": 235.5
+      }
+    },
+    "dram": {
+      "rq_row_buffer_hit": 1907,
+      "rq_row_buffer_miss": 1257626
+    }
+  },
+  "res_p2_lru_astar.txt": {
+    "file_name": "res_p2_lru_astar.txt",
+    "execution": {
+      "ipc": 0.5981,
+      "instructions": 50000000,
+      "cycles": 83598259
+    },
+    "branch_prediction": {
+      "accuracy_pct": 84.39,
+      "mpki": 29.44,
+      "avg_rob_occupancy": 17.35
+    },
+    "caches": {
+      "LLC": {
+        "total": {
+          "access": 658152,
+          "hit": 528935,
+          "miss": 129217,
+          "miss_merge": 0,
+          "hit_rate_pct": 80.3667
+        },
+        "load": {
+          "access": 478399,
+          "hit": 350369,
+          "miss": 128030,
+          "miss_merge": 0,
+          "hit_rate_pct": 73.2378
+        },
+        "rfo": {
+          "access": 1547,
+          "hit": 1277,
+          "miss": 270,
+          "miss_merge": 0,
+          "hit_rate_pct": 82.5469
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 177059,
+          "hit": 176989,
+          "miss": 70,
+          "miss_merge": 0,
+          "hit_rate_pct": 99.9605
+        },
+        "translation": {
+          "access": 1147,
+          "hit": 300,
+          "miss": 847,
+          "miss_merge": 0,
+          "hit_rate_pct": 26.1552
+        },
+        "avg_miss_latency_cycles": 172.2
+      },
+      "cpu0_DTLB": {
+        "total": {
+          "access": 16983049,
+          "hit": 15483339,
+          "miss": 1499710,
+          "miss_merge": 315640,
+          "hit_rate_pct": 91.1694
+        },
+        "load": {
+          "access": 16983049,
+          "hit": 15483339,
+          "miss": 1499710,
+          "miss_merge": 315640,
+          "hit_rate_pct": 91.1694
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "translation": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "avg_miss_latency_cycles": 4.726
+      },
+      "cpu0_ITLB": {
+        "total": {
+          "access": 24865,
+          "hit": 24849,
+          "miss": 16,
+          "miss_merge": 8,
+          "hit_rate_pct": 99.9357
+        },
+        "load": {
+          "access": 24865,
+          "hit": 24849,
+          "miss": 16,
+          "miss_merge": 8,
+          "hit_rate_pct": 99.9357
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "translation": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "avg_miss_latency_cycles": 287.9
+      },
+      "cpu0_L1D": {
+        "total": {
+          "access": 16995850,
+          "hit": 15186905,
+          "miss": 1808945,
+          "miss_merge": 528435,
+          "hit_rate_pct": 89.3565
+        },
+        "load": {
+          "access": 14852263,
+          "hit": 13053873,
+          "miss": 1798390,
+          "miss_merge": 527542,
+          "hit_rate_pct": 87.8915
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 2130786,
+          "hit": 2122004,
+          "miss": 8782,
+          "miss_merge": 860,
+          "hit_rate_pct": 99.5879
+        },
+        "translation": {
+          "access": 12801,
+          "hit": 11028,
+          "miss": 1773,
+          "miss_merge": 33,
+          "hit_rate_pct": 86.1495
+        },
+        "avg_miss_latency_cycles": 29.35
+      },
+      "cpu0_L1I": {
+        "total": {
+          "access": 24867,
+          "hit": 24747,
+          "miss": 120,
+          "miss_merge": 15,
+          "hit_rate_pct": 99.5174
+        },
+        "load": {
+          "access": 24867,
+          "hit": 24747,
+          "miss": 120,
+          "miss_merge": 15,
+          "hit_rate_pct": 99.5174
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "translation": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "avg_miss_latency_cycles": 206.0
+      },
+      "cpu0_L2C": {
+        "total": {
+          "access": 1705265,
+          "hit": 1224044,
+          "miss": 481221,
+          "miss_merge": 0,
+          "hit_rate_pct": 71.7803
+        },
+        "load": {
+          "access": 1270953,
+          "hit": 792554,
+          "miss": 478399,
+          "miss_merge": 0,
+          "hit_rate_pct": 62.359
+        },
+        "rfo": {
+          "access": 7922,
+          "hit": 6375,
+          "miss": 1547,
+          "miss_merge": 0,
+          "hit_rate_pct": 80.4721
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 424650,
+          "hit": 424522,
+          "miss": 128,
+          "miss_merge": 0,
+          "hit_rate_pct": 99.9699
+        },
+        "translation": {
+          "access": 1740,
+          "hit": 593,
+          "miss": 1147,
+          "miss_merge": 0,
+          "hit_rate_pct": 34.0805
+        },
+        "avg_miss_latency_cycles": 58.51
+      },
+      "cpu0_STLB": {
+        "total": {
+          "access": 1184078,
+          "hit": 1177684,
+          "miss": 6394,
+          "miss_merge": 0,
+          "hit_rate_pct": 99.46
+        },
+        "load": {
+          "access": 1184078,
+          "hit": 1177684,
+          "miss": 6394,
+          "miss_merge": 0,
+          "hit_rate_pct": 99.46
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "translation": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "avg_miss_latency_cycles": 133.8
+      }
+    },
+    "dram": {
+      "rq_row_buffer_hit": 911,
+      "rq_row_buffer_miss": 127901
+    }
+  },
+  "res_p2_hawkeye_mcf.txt": {
+    "file_name": "res_p2_hawkeye_mcf.txt",
+    "execution": {
+      "ipc": 0.3961,
+      "instructions": 50000002,
+      "cycles": 126235484
+    },
+    "branch_prediction": {
+      "accuracy_pct": 98.75,
+      "mpki": 1.081,
+      "avg_rob_occupancy": 154.4
+    },
+    "caches": {
+      "LLC": {
+        "total": {
+          "access": 1943615,
+          "hit": 110588,
+          "miss": 1833027,
+          "miss_merge": 1,
+          "hit_rate_pct": 5.6898
+        },
+        "load": {
+          "access": 1210161,
+          "hit": 100689,
+          "miss": 1109472,
+          "miss_merge": 1,
+          "hit_rate_pct": 8.3203
+        },
+        "rfo": {
+          "access": 9,
+          "hit": 0,
+          "miss": 9,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 660755,
+          "hit": 8575,
+          "miss": 652180,
+          "miss_merge": 0,
+          "hit_rate_pct": 1.2978
+        },
+        "translation": {
+          "access": 72690,
+          "hit": 1324,
+          "miss": 71366,
+          "miss_merge": 0,
+          "hit_rate_pct": 1.8214
+        },
+        "avg_miss_latency_cycles": 138.0
+      },
+      "cpu0_DTLB": {
+        "total": {
+          "access": 24686232,
+          "hit": 23737978,
+          "miss": 948254,
+          "miss_merge": 717521,
+          "hit_rate_pct": 96.1588
+        },
+        "load": {
+          "access": 24686232,
+          "hit": 23737978,
+          "miss": 948254,
+          "miss_merge": 717521,
+          "hit_rate_pct": 96.1588
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "translation": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "avg_miss_latency_cycles": 172.2
+      },
+      "cpu0_ITLB": {
+        "total": {
+          "access": 7514878,
+          "hit": 7514878,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 100.0
+        },
+        "load": {
+          "access": 7514878,
+          "hit": 7514878,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 100.0
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "translation": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "avg_miss_latency_cycles": null
+      },
+      "cpu0_L1D": {
+        "total": {
+          "access": 25016808,
+          "hit": 22113260,
+          "miss": 2903548,
+          "miss_merge": 1597698,
+          "hit_rate_pct": 88.3936
+        },
+        "load": {
+          "access": 12183088,
+          "hit": 9360661,
+          "miss": 2822427,
+          "miss_merge": 1595265,
+          "hit_rate_pct": 76.8332
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 12504391,
+          "hit": 12502551,
+          "miss": 1840,
+          "miss_merge": 918,
+          "hit_rate_pct": 99.9853
+        },
+        "translation": {
+          "access": 329329,
+          "hit": 250048,
+          "miss": 79281,
+          "miss_merge": 1515,
+          "hit_rate_pct": 75.9265
+        },
+        "avg_miss_latency_cycles": 211.0
+      },
+      "cpu0_L1I": {
+        "total": {
+          "access": 7514878,
+          "hit": 7514878,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 100.0
+        },
+        "load": {
+          "access": 7514878,
+          "hit": 7514878,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 100.0
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "translation": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "avg_miss_latency_cycles": null
+      },
+      "cpu0_L2C": {
+        "total": {
+          "access": 1980644,
+          "hit": 696618,
+          "miss": 1284026,
+          "miss_merge": 0,
+          "hit_rate_pct": 35.1713
+        },
+        "load": {
+          "access": 1227162,
+          "hit": 17001,
+          "miss": 1210161,
+          "miss_merge": 0,
+          "hit_rate_pct": 1.3854
+        },
+        "rfo": {
+          "access": 922,
+          "hit": 913,
+          "miss": 9,
+          "miss_merge": 0,
+          "hit_rate_pct": 99.0239
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 674794,
+          "hit": 673628,
+          "miss": 1166,
+          "miss_merge": 0,
+          "hit_rate_pct": 99.8272
+        },
+        "translation": {
+          "access": 77766,
+          "hit": 5076,
+          "miss": 72690,
+          "miss_merge": 0,
+          "hit_rate_pct": 6.5273
+        },
+        "avg_miss_latency_cycles": 206.4
+      },
+      "cpu0_STLB": {
+        "total": {
+          "access": 230733,
+          "hit": 71932,
+          "miss": 158801,
+          "miss_merge": 0,
+          "hit_rate_pct": 31.1754
+        },
+        "load": {
+          "access": 230733,
+          "hit": 71932,
+          "miss": 158801,
+          "miss_merge": 0,
+          "hit_rate_pct": 31.1754
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "translation": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "avg_miss_latency_cycles": 243.4
+      }
+    },
+    "dram": {
+      "rq_row_buffer_hit": 2479,
+      "rq_row_buffer_miss": 1178339
+    }
+  },
+  "res_p2_hawkeye_astar.txt": {
+    "file_name": "res_p2_hawkeye_astar.txt",
+    "execution": {
+      "ipc": 0.4412,
+      "instructions": 50000000,
+      "cycles": 113333073
+    },
+    "branch_prediction": {
+      "accuracy_pct": 84.39,
+      "mpki": 29.44,
+      "avg_rob_occupancy": 17.36
+    },
+    "caches": {
+      "LLC": {
+        "total": {
+          "access": 659763,
+          "hit": 186236,
+          "miss": 473527,
+          "miss_merge": 11,
+          "hit_rate_pct": 28.2277
+        },
+        "load": {
+          "access": 479836,
+          "hit": 114545,
+          "miss": 365291,
+          "miss_merge": 11,
+          "hit_rate_pct": 23.8717
+        },
+        "rfo": {
+          "access": 1558,
+          "hit": 1340,
+          "miss": 218,
+          "miss_merge": 0,
+          "hit_rate_pct": 86.0077
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 177223,
+          "hit": 70052,
+          "miss": 107171,
+          "miss_merge": 0,
+          "hit_rate_pct": 39.5276
+        },
+        "translation": {
+          "access": 1146,
+          "hit": 299,
+          "miss": 847,
+          "miss_merge": 0,
+          "hit_rate_pct": 26.0908
+        },
+        "avg_miss_latency_cycles": 140.7
+      },
+      "cpu0_DTLB": {
+        "total": {
+          "access": 16982981,
+          "hit": 15481844,
+          "miss": 1501137,
+          "miss_merge": 317075,
+          "hit_rate_pct": 91.1609
+        },
+        "load": {
+          "access": 16982981,
+          "hit": 15481844,
+          "miss": 1501137,
+          "miss_merge": 317075,
+          "hit_rate_pct": 91.1609
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "translation": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "avg_miss_latency_cycles": 4.731
+      },
+      "cpu0_ITLB": {
+        "total": {
+          "access": 26525,
+          "hit": 26509,
+          "miss": 16,
+          "miss_merge": 8,
+          "hit_rate_pct": 99.9397
+        },
+        "load": {
+          "access": 26525,
+          "hit": 26509,
+          "miss": 16,
+          "miss_merge": 8,
+          "hit_rate_pct": 99.9397
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "translation": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "avg_miss_latency_cycles": 308.2
+      },
+      "cpu0_L1D": {
+        "total": {
+          "access": 16995782,
+          "hit": 15163054,
+          "miss": 1832728,
+          "miss_merge": 551869,
+          "hit_rate_pct": 89.2166
+        },
+        "load": {
+          "access": 14852196,
+          "hit": 13029933,
+          "miss": 1822263,
+          "miss_merge": 551081,
+          "hit_rate_pct": 87.7307
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 2130785,
+          "hit": 2122099,
+          "miss": 8686,
+          "miss_merge": 752,
+          "hit_rate_pct": 99.5924
+        },
+        "translation": {
+          "access": 12801,
+          "hit": 11022,
+          "miss": 1779,
+          "miss_merge": 36,
+          "hit_rate_pct": 86.1026
+        },
+        "avg_miss_latency_cycles": 63.6
+      },
+      "cpu0_L1I": {
+        "total": {
+          "access": 26527,
+          "hit": 26407,
+          "miss": 120,
+          "miss_merge": 15,
+          "hit_rate_pct": 99.5476
+        },
+        "load": {
+          "access": 26527,
+          "hit": 26407,
+          "miss": 120,
+          "miss_merge": 15,
+          "hit_rate_pct": 99.5476
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "translation": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "avg_miss_latency_cycles": 200.5
+      },
+      "cpu0_L2C": {
+        "total": {
+          "access": 1705691,
+          "hit": 1223027,
+          "miss": 482664,
+          "miss_merge": 0,
+          "hit_rate_pct": 71.7027
+        },
+        "load": {
+          "access": 1271287,
+          "hit": 791451,
+          "miss": 479836,
+          "miss_merge": 0,
+          "hit_rate_pct": 62.2559
+        },
+        "rfo": {
+          "access": 7934,
+          "hit": 6376,
+          "miss": 1558,
+          "miss_merge": 0,
+          "hit_rate_pct": 80.363
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 424727,
+          "hit": 424603,
+          "miss": 124,
+          "miss_merge": 0,
+          "hit_rate_pct": 99.9708
+        },
+        "translation": {
+          "access": 1743,
+          "hit": 597,
+          "miss": 1146,
+          "miss_merge": 0,
+          "hit_rate_pct": 34.2513
+        },
+        "avg_miss_latency_cycles": 149.2
+      },
+      "cpu0_STLB": {
+        "total": {
+          "access": 1184070,
+          "hit": 1177676,
+          "miss": 6394,
+          "miss_merge": 0,
+          "hit_rate_pct": 99.46
+        },
+        "load": {
+          "access": 1184070,
+          "hit": 1177676,
+          "miss": 6394,
+          "miss_merge": 0,
+          "hit_rate_pct": 99.46
+        },
+        "rfo": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "prefetch": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "write": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "translation": {
+          "access": 0,
+          "hit": 0,
+          "miss": 0,
+          "miss_merge": 0,
+          "hit_rate_pct": 0.0
+        },
+        "avg_miss_latency_cycles": 134.7
+      }
+    },
+    "dram": {
+      "rq_row_buffer_hit": 4217,
+      "rq_row_buffer_miss": 357117
+    }
+  }
+}

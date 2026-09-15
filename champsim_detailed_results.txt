@@ -1,0 +1,144 @@
+========================================================
+          CHAMPSIM EVALUATION DETAILED REPORT           
+========================================================
+
+--- File: res_p1_lru_a4.txt ---
+  IPC: 0.8568
+  Instructions: 50000003
+  Cycles: 58353644
+  Branch Predictor Accuracy: 99.54%
+  Branch MPKI: 0.2056
+  LLC Total Accesses: 265856
+  LLC Hits: 175765
+  LLC Misses: 90091
+  LLC Hit Rate: 66.1129%
+  LLC Avg Miss Latency: 166.5 cycles
+
+--------------------------------------------------
+
+--- File: res_p1_lru_a8.txt ---
+  IPC: 0.8571
+  Instructions: 50000003
+  Cycles: 58333427
+  Branch Predictor Accuracy: 99.54%
+  Branch MPKI: 0.2056
+  LLC Total Accesses: 265798
+  LLC Hits: 194219
+  LLC Misses: 71579
+  LLC Hit Rate: 73.0702%
+  LLC Avg Miss Latency: 182.3 cycles
+
+--------------------------------------------------
+
+--- File: res_p1_lru_a16.txt ---
+  IPC: 0.8577
+  Instructions: 50000003
+  Cycles: 58293334
+  Branch Predictor Accuracy: 99.54%
+  Branch MPKI: 0.2056
+  LLC Total Accesses: 265810
+  LLC Hits: 196847
+  LLC Misses: 68963
+  LLC Hit Rate: 74.0555%
+  LLC Avg Miss Latency: 183.3 cycles
+
+--------------------------------------------------
+
+--- File: res_p1_hawkeye_a4.txt ---
+  IPC: 0.8554
+  Instructions: 50000003
+  Cycles: 58452582
+  Branch Predictor Accuracy: 99.54%
+  Branch MPKI: 0.2056
+  LLC Total Accesses: 265804
+  LLC Hits: 148598
+  LLC Misses: 117206
+  LLC Hit Rate: 55.9051%
+  LLC Avg Miss Latency: 97.02 cycles
+
+--------------------------------------------------
+
+--- File: res_p1_hawkeye_a8.txt ---
+  IPC: 0.8566
+  Instructions: 50000003
+  Cycles: 58372952
+  Branch Predictor Accuracy: 99.54%
+  Branch MPKI: 0.2056
+  LLC Total Accesses: 265852
+  LLC Hits: 182913
+  LLC Misses: 82939
+  LLC Hit Rate: 68.8026%
+  LLC Avg Miss Latency: 91.84 cycles
+
+--------------------------------------------------
+
+--- File: res_p1_hawkeye_a16.txt ---
+  IPC: 0.8574
+  Instructions: 50000003
+  Cycles: 58312707
+  Branch Predictor Accuracy: 99.54%
+  Branch MPKI: 0.2056
+  LLC Total Accesses: 265801
+  LLC Hits: 196864
+  LLC Misses: 68937
+  LLC Hit Rate: 74.0644% 
+  LLC Avg Miss Latency: 89.46 cycles
+
+--------------------------------------------------
+
+--- File: res_p2_lru_mcf.txt ---
+  IPC: 0.3697
+  Instructions: 50000002
+  Cycles: 135233720
+  Branch Predictor Accuracy: 98.75%
+  Branch MPKI: 1.081
+  LLC Total Accesses: 1943704
+  LLC Hits: 683822
+  LLC Misses: 1259882
+  LLC Hit Rate: 35.1814%
+  LLC Avg Miss Latency: 210.0 cycles
+
+--------------------------------------------------
+
+--- File: res_p2_lru_astar.txt ---
+  IPC: 0.5981
+  Instructions: 50000000
+  Cycles: 83598259
+  Branch Predictor Accuracy: 84.39%
+  Branch MPKI: 29.44
+  LLC Total Accesses: 658152
+  LLC Hits: 528935
+  LLC Misses: 129217
+  LLC Hit Rate: 80.3667%
+  LLC Avg Miss Latency: 172.2 cycles
+
+--------------------------------------------------
+
+--- File: res_p2_hawkeye_mcf.txt ---
+  IPC: 0.3961
+  Instructions: 50000002
+  Cycles: 126235484
+  Branch Predictor Accuracy: 98.75%
+  Branch MPKI: 1.081
+  LLC Total Accesses: 1943615
+  LLC Hits: 110588
+  LLC Misses: 1833027
+  LLC Hit Rate: 5.6898%
+  LLC Avg Miss Latency: 138.0 cycles
+
+--------------------------------------------------
+
+--- File: res_p2_hawkeye_astar.txt ---
+  IPC: 0.4412
+  Instructions: 50000000
+  Cycles: 113333073
+  Branch Predictor Accuracy: 84.39%
+  Branch MPKI: 29.44
+  LLC Total Accesses: 659763
+  LLC Hits: 186236
+  LLC Misses: 473527
+  LLC Hit Rate: 28.2277%
+  LLC Avg Miss Latency: 140.7 cycles
+
+--------------------------------------------------
+
